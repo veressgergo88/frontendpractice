@@ -1,0 +1,74 @@
+/* color palette:
+    yellow: #fbffa7
+    orange: #ff764d
+    light blue: #b1c5ff
+    dark blue: #0000ff
+    purple: #d5b3ff
+    green: #b6ffc0
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #f3f3f3;
+}
+
+nav, main, footer {
+    width: 1600px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+nav, main {
+    border-bottom: 2px solid #f3f3f3;
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#left-nav {
+    display: flex;
+}
+
+#logo{
+    padding: 1rem 1.5rem;
+}
+
+#navs ul {
+    display: flex;
+}
+
+#navs ul li {
+    padding: 1rem 1.5rem;
+    font-weight: bold;
+}
+
+#navs ul li span {
+    color: #ff764d;
+}
+
+#right-nav a {
+    margin-right: 1rem;
+    padding: 1rem;
+}
+
+#right-nav a span {
+    color: #0000ff;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
